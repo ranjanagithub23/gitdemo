@@ -15,7 +15,7 @@ function TextForm(props) {
       <div className="container">
         <h1>{props.heading}</h1>
         <textarea
-          className="form-control"
+          className="form-control abc"
           aria-label="With textarea"
           value={name}
           onChange={handleOnChange}
